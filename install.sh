@@ -8,7 +8,7 @@ install () {
 	7z x /tmp/$1.dmg "-o/tmp"
 	7z x /tmp/$1/*.pkg "-o/tmp"
 	7z x /tmp/Payload\~ "-o/tmp"
-	cp -rf /tmp/Library/Fonts/* ~/.fonts
+	cp -rf /tmp/Library/Fonts/* ~/.fonts/
 	rm -rf /tmp/$1.dmg /tmp/$1 /tmp/Library /tmp/Payload~
 }
 
