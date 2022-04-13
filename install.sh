@@ -15,6 +15,9 @@ install () {
 clear
 tput civis
 
+mkdir -p ~/.fonts
+sudo apt-get install --no-upgrade dialog curl p7zip
+
 fonts=$(dialog --checklist "Which fonts do you want to install?" 12 39 1 \
 "New York" "" on \
 "SF Arabic" "" on \
