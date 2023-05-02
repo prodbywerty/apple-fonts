@@ -1,11 +1,11 @@
 # apple-font-installer
-### About:
-Simplifies the installation process for Apple fonts on Linux.
+### About
+Simplifies the installation process for Apple fonts on Linux
 
-### Prerequisites:
+### Prerequisites
 `sudo apt install git -y`
 
-### Installation:
+### Installation
 ```
 git clone https://github.com/egg4096/apple-font-installer && chmod +x apple-font-installer/install.sh && apple-font-installer/install.sh
 ```
