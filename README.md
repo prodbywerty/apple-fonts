@@ -1,5 +1,5 @@
 # apple-font-installer
-### Description:
+### About:
 Simplifies the installation process for Apple fonts on Linux.
 
 ### Usage:
