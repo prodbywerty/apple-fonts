@@ -1,5 +1,5 @@
 ### Download
 ```
-git clone https://github.com/egg4096/apple-fonts
+git clone https://github.com/prodbywerty/apple-fonts
 apple-fonts/install.sh
 ```
