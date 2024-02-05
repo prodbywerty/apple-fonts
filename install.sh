@@ -1,19 +1,22 @@
 #! /bin/bash
 
 font () {
-	read -N 1 -p "$1	" -s
-	echo "$REPLY"
+	echo -en "  $1\r"
+	read -sN 1
 
 	if [ "$REPLY" == "y" ]
 	then
+		echo "+"
 		cp -r "$1" ~/.local/share/fonts/
+	else
+		echo "-"
 	fi
 }
 
 mkdir -p ~/.local/share/fonts/
 
 echo "[y] Install"
-echo "[n]    Skip"
+echo "[n] Skip"
 echo
 
 font "New York"
@@ -24,3 +27,4 @@ font "San Francisco Georgian"
 font "San Francisco Hebrew"
 font "San Francisco Mono"
 font "San Francisco Pro"
+echo "Done"
