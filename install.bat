@@ -37,7 +37,7 @@ choice /n > nul
 
 if %ERRORLEVEL% == 1 (
 	echo +
-	copy %~1 C:\Windows\Fonts
+	copy "%~1" C:\Windows\Fonts
 ) else (
 	echo -
 )
