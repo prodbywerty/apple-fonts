@@ -1,4 +1,4 @@
-# 2>nul & @echo off & goto :main
+# 2>nul & goto :main
 
 font () {
 	echo -en "  $1\r"
@@ -44,6 +44,7 @@ if %ERRORLEVEL% == 1 (
 goto :eof
 
 :main
+@echo off
 echo [y] Install
 echo [n] Skip
 echo.
