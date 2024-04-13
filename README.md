@@ -4,9 +4,9 @@ git clone https://github.com/prodbywerty/apple-fonts
 ```
 ### Install on Windows
 ```
-install
+apple-fonts/install
 ```
 ### Install on Linux
 ```
-./install.bat
+apple-fonts/install.bat
 ```
