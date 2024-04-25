@@ -2,11 +2,11 @@
 ```
 git clone https://github.com/prodbywerty/apple-fonts
 ```
-### Install on Windows
+### Run on Windows
 ```
 apple-fonts/install
 ```
-### Install on Linux
+### Run on Linux
 ```
 apple-fonts/install.bat
 ```
